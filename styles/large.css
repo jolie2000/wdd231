@@ -1,0 +1,9 @@
+@media (min-width: 721px) {
+  .hero-copy {
+    padding-left: 18px;
+  }
+
+  .course-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
