@@ -1,0 +1,9 @@
+[
+  { "name": "Kampala Coffee Works", "address": "17 Bugolobi Market Road, Kampala", "phone": "+256 200 501 220", "website": "https://example.com/kampala-coffee-works", "image": "coffee-works.svg", "membershipLevel": 3, "category": "Food & Hospitality" },
+  { "name": "Pearl Tech Studio", "address": "45 Nakasero Hill Road, Kampala", "phone": "+256 200 501 221", "website": "https://example.com/pearl-tech-studio", "image": "pearl-tech.svg", "membershipLevel": 3, "category": "Technology" },
+  { "name": "Lakeview Gardens", "address": "8 Ggaba Road, Kampala", "phone": "+256 200 501 222", "website": "https://example.com/lakeview-gardens", "image": "lakeview-gardens.svg", "membershipLevel": 2, "category": "Events & Hospitality" },
+  { "name": "Kira Health Collective", "address": "102 Kira Road, Kampala", "phone": "+256 200 501 223", "website": "https://example.com/kira-health", "image": "kira-health.svg", "membershipLevel": 2, "category": "Health & Wellness" },
+  { "name": "Mirembe Market", "address": "23 Luwum Street, Kampala", "phone": "+256 200 501 224", "website": "https://example.com/mirembe-market", "image": "mirembe-market.svg", "membershipLevel": 1, "category": "Retail" },
+  { "name": "Nile Mobility", "address": "67 Jinja Road, Kampala", "phone": "+256 200 501 225", "website": "https://example.com/nile-mobility", "image": "nile-mobility.svg", "membershipLevel": 1, "category": "Transport & Logistics" },
+  { "name": "Ubuntu Legal Partners", "address": "5 Yusuf Lule Road, Kampala", "phone": "+256 200 501 226", "website": "https://example.com/ubuntu-legal", "image": "ubuntu-legal.svg", "membershipLevel": 1, "category": "Professional Services" }
+]

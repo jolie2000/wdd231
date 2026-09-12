@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the businesses and organizations that make up the Kampala Commerce member directory.">
+  <meta name="author" content="Uwase Jolie">
+  <meta name="theme-color" content="#123b4a">
+  <title>Member Directory | Kampala Commerce</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Member Directory | Kampala Commerce">
+  <meta property="og:description" content="Meet the businesses and organizations building a stronger Kampala.">
+  <meta property="og:image" content="https://jolie2000.github.io/wdd231/chamber/images/social-preview.svg">
+  <meta property="og:url" content="https://jolie2000.github.io/wdd231/chamber/directory.html">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/larger.css">
+  <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="brand" href="index.html" aria-label="Kampala Commerce home">
+        <span class="brand-symbol" aria-hidden="true">K</span>
+        <span><strong>Kampala</strong><small>Commerce</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html" aria-current="page">Directory</a>
+        <a href="join.html">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="directory-hero" aria-labelledby="directory-title">
+      <div>
+        <p class="eyebrow">Business community</p>
+        <h1 id="directory-title">Member directory</h1>
+      </div>
+      <p>Explore the local businesses, innovators, and service providers helping Kampala thrive.</p>
+    </section>
+
+    <section class="directory-section" aria-labelledby="members-title">
+      <div class="directory-toolbar">
+        <div>
+          <h2 id="members-title">Our members</h2>
+          <p id="member-count" aria-live="polite">Loading members…</p>
+        </div>
+        <div class="view-controls" role="group" aria-label="Choose member directory layout">
+          <button class="view-button is-active" type="button" data-view="grid" aria-pressed="true" title="Grid view">
+            <span class="grid-icon" aria-hidden="true">▦</span><span class="sr-only">Grid view</span>
+          </button>
+          <button class="view-button" type="button" data-view="list" aria-pressed="false" title="List view">
+            <span class="list-icon" aria-hidden="true">☷</span><span class="sr-only">List view</span>
+          </button>
+        </div>
+      </div>
+      <div id="member-directory" class="member-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Kampala Commerce</h2>
+        <address>
+          12 Lumumba Avenue<br>
+          Kampala, Uganda<br>
+          <a href="tel:+256200123456">+256 200 123 456</a><br>
+          <a href="mailto:hello@kampalacommerce.org">hello@kampalacommerce.org</a>
+        </address>
+      </section>
+      <div class="social-links" aria-label="Social media links">
+        <a href="https://www.linkedin.com" aria-label="Kampala Commerce on LinkedIn"><span aria-hidden="true">in</span></a>
+        <a href="https://www.facebook.com" aria-label="Kampala Commerce on Facebook"><span aria-hidden="true">f</span></a>
+        <a href="https://www.instagram.com" aria-label="Kampala Commerce on Instagram"><span aria-hidden="true">◎</span></a>
+      </div>
+      <section class="development-info" aria-label="Development information">
+        <p>WDD 231 Chamber Project</p>
+        <p>Uwase Jolie</p>
+        <p>&copy; <span id="current-year"></span> Kampala Commerce</p>
+        <p>Last modification: <span id="last-modified"></span></p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
