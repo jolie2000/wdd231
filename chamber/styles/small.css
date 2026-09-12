@@ -9,8 +9,8 @@
   --muted: #4c6068;
   --line: #cad5d5;
   --shadow: 0 9px 24px rgba(9, 42, 54, .12);
-  --sans: "Segoe UI", Arial, sans-serif;
-  --display: Georgia, "Times New Roman", serif;
+  --sans: "DM Sans", "Segoe UI", Arial, sans-serif;
+  --display: "Lora", Georgia, "Times New Roman", serif;
 }
 
 body { min-width: 320px; color: var(--ink); background: var(--cream); font-family: var(--sans); line-height: 1.55; }
