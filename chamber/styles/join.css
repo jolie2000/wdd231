@@ -1,5 +1,6 @@
 .join-intro { padding: 2.6rem max(1rem, calc((100% - 1120px) / 2)) 2.3rem; color: var(--white); background: var(--navy); }
 .join-intro .eyebrow { margin-bottom: .5rem; }
+.join-section-heading .eyebrow, .dialog-content .eyebrow, .thankyou-card > .eyebrow { color: var(--coral); }
 .join-intro h1 { margin: 0; font-size: clamp(2.3rem, 7vw, 3.7rem); }
 .join-intro > p:last-child { max-width: 620px; margin: .8rem 0 0; color: #e0ecea; }
 .join-layout { display: grid; gap: 2.8rem; width: min(100% - 2rem, 1120px); padding: 2.7rem 0 4rem; margin: auto; }
