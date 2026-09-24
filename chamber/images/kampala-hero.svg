@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Kampala at golden hour</title>
+  <desc id="desc">A colorful illustrated skyline of Kampala among green hills at sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f4b66b"/><stop offset=".58" stop-color="#e58b68"/><stop offset="1" stop-color="#7a7c6d"/></linearGradient>
+    <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#69886a"/><stop offset="1" stop-color="#244e4c"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#648e91"/><stop offset="1" stop-color="#254f58"/></linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#sky)"/>
+  <circle cx="1210" cy="170" r="88" fill="#f8d18e" opacity=".85"/>
+  <path d="M0 366c180-99 321-5 480-83s335-88 488-13 379 13 632-87v517H0z" fill="#879476" opacity=".65"/>
+  <path d="M0 422c212-103 353-40 547-93s356-57 520 6 331 8 533-58v423H0z" fill="url(#hill)"/>
+  <path d="M0 535c231-60 351-12 537-62s334-49 497 0 367 14 566-27v254H0z" fill="#385e52"/>
+  <path d="M0 618c201-51 348-4 512-24s308-44 483-4 387 26 605-30v140H0z" fill="url(#water)"/>
+  <g fill="#f4dfb0" opacity=".85"><path d="M0 626q230-41 452 0t470 0q267-43 678 0" fill="none" stroke="#c9d0b0" stroke-width="3" opacity=".5"/><path d="M128 661q184-25 350 0m412-5q210-22 392 0m-645 27q136-13 237 0" fill="none" stroke="#c9d0b0" stroke-width="2" opacity=".45"/></g>
+  <g fill="#e8c69a" opacity=".96">
+    <path d="M365 424h82v137h-82zM382 384h50v40h-50zM455 449h70v106h-70zM540 410h88v143h-88zM563 367h41v43h-41zM640 438h90v116h-90zM748 385h68v168h-68zM762 338h39v47h-39zM832 426h97v128h-97zM950 399h75v154h-75zM1042 450h82v104h-82zM1144 412h79v142h-79zM1238 438h110v117h-110zM1370 392h71v164h-71zM1457 445h91v111h-91z"/>
+  </g>
+  <g fill="#9f7663" opacity=".95">
+    <path d="M402 344h12v211h-12zM390 355h36v8h-36zM775 286h12v267h-12zM759 305h44v8h-44zM1370 339h12v217h-12z"/>
+  </g>
+  <g fill="#f7d884" opacity=".86"><path d="M380 438h10v10h-10zm24 0h10v10h-10zm-24 25h10v10h-10zm24 0h10v10h-10zm76 2h10v10h-10zm25 0h10v10h-10zm60-39h10v10h-10zm24 0h10v10h-10zm-84 27h10v10h-10zm136 31h10v10h-10zm25 0h10v10h-10zm91-47h10v10h-10zm27 0h10v10h-10zm-12 27h10v10h-10zm-18 27h10v10h-10zm96-67h10v10h-10zm25 0h10v10h-10zm44 35h10v10h-10zm-22 29h10v10h-10zm91-48h10v10h-10zm24 0h10v10h-10zm58 28h10v10h-10zm29-41h10v10h-10zm24 0h10v10h-10zm-37 36h10v10h-10zm108 27h10v10h-10zm27-58h10v10h-10zm-23 30h10v10h-10z"/></g>
+  <g fill="#49725b"><circle cx="300" cy="464" r="47"/><circle cx="327" cy="446" r="39"/><circle cx="1310" cy="398" r="48"/><circle cx="1343" cy="412" r="42"/><circle cx="696" cy="370" r="34"/><circle cx="719" cy="381" r="31"/></g>
+  <g fill="#304f48"><path d="M291 467h12v105h-12zM1305 415h12v140h-12zM693 388h10v166h-10z"/></g>
+</svg>
