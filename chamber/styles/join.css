@@ -1,0 +1,71 @@
+.join-intro { padding: 2.6rem max(1rem, calc((100% - 1120px) / 2)) 2.3rem; color: var(--white); background: var(--navy); }
+.join-intro .eyebrow { margin-bottom: .5rem; }
+.join-intro h1 { margin: 0; font-size: clamp(2.3rem, 7vw, 3.7rem); }
+.join-intro > p:last-child { max-width: 620px; margin: .8rem 0 0; color: #e0ecea; }
+.join-layout { display: grid; gap: 2.8rem; width: min(100% - 2rem, 1120px); padding: 2.7rem 0 4rem; margin: auto; }
+.join-section-heading { margin-bottom: 1.25rem; }
+.join-section-heading h2 { margin: 0; color: var(--navy-dark); font-size: 1.8rem; }
+.join-section-heading > p:last-child { margin: .55rem 0 0; color: var(--muted); font-size: .9rem; }
+.membership-form { padding: 1.25rem; border: 1px solid var(--line); border-radius: .45rem; background: var(--white); box-shadow: 0 5px 18px rgba(9, 42, 54, .06); }
+.form-fields { display: grid; gap: 1rem; }
+.form-fields > label { display: grid; align-content: start; gap: .35rem; color: var(--navy-dark); font-size: .88rem; font-weight: 700; }
+.form-fields input:not([type="hidden"]), .form-fields select, .form-fields textarea { width: 100%; min-height: 46px; padding: .65rem .7rem; border: 1px solid #87999c; border-radius: .22rem; color: var(--ink); background: #fff; font: 400 .95rem var(--sans); }
+.form-fields textarea { min-height: 120px; resize: vertical; }
+.form-fields input:focus-visible, .form-fields select:focus-visible, .form-fields textarea:focus-visible { outline: 3px solid #d18b1f; outline-offset: 2px; border-color: var(--navy-dark); }
+.form-fields input:required:invalid:not(:placeholder-shown) { border-color: var(--coral); }
+.field-hint { color: var(--muted); font-size: .76rem; font-weight: 400; }
+.form-field-wide { grid-column: 1 / -1; }
+.required-note { margin: 1rem 0; color: var(--muted); font-size: .8rem; }
+.required-note span, .form-fields label > span[aria-hidden="true"] { color: var(--coral); font-weight: 800; }
+.submit-application { min-height: 48px; padding: .7rem 1.1rem; border: 0; border-radius: .2rem; color: var(--white); background: var(--navy); font: 700 .95rem var(--sans); cursor: pointer; }
+.submit-application:hover, .submit-application:focus-visible { background: var(--coral); }
+.membership-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+.level-card { display: flex; min-height: 175px; flex-direction: column; align-items: flex-start; padding: 1rem; border: 1px solid var(--line); border-top: 4px solid var(--navy); border-radius: .35rem; background: var(--white); box-shadow: 0 4px 14px rgba(9, 42, 54, .07); animation: level-arrive .55s both ease-out; }
+.level-card:nth-child(2) { animation-delay: .12s; }
+.level-card:nth-child(3) { animation-delay: .24s; }
+.level-card:nth-child(4) { animation-delay: .36s; }
+.level-np { border-top-color: #567765; }
+.level-bronze { border-top-color: #9b5c37; }
+.level-silver { border-top-color: #687b84; }
+.level-gold { border-top-color: #b07a12; }
+.level-kicker { margin: 0 0 .35rem; color: var(--muted); font-size: .67rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.level-card h3 { margin: 0; color: var(--navy-dark); font-size: 1.08rem; }
+.level-price { margin: .5rem 0 .75rem; color: var(--ink); font-size: .82rem; font-weight: 700; }
+.level-price span { color: var(--muted); font-weight: 400; }
+.level-card a { margin-top: auto; color: var(--navy); font-size: .8rem; font-weight: 800; text-underline-offset: .2em; }
+.level-card a:hover, .level-card a:focus-visible { color: var(--coral); }
+@keyframes level-arrive { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+.benefit-dialog { width: min(92vw, 480px); max-height: min(85vh, 680px); padding: 0; border: 1px solid var(--line); border-radius: .45rem; color: var(--ink); box-shadow: 0 20px 70px rgba(0, 0, 0, .28); }
+.benefit-dialog::backdrop { background: rgba(9, 28, 35, .68); }
+.dialog-content { padding: 1.6rem; }
+.dialog-content h2 { margin: 0 0 .7rem; color: var(--navy-dark); font-size: 1.8rem; }
+.dialog-content > p:not(.eyebrow) { color: var(--muted); }
+.dialog-content ul { display: grid; gap: .6rem; padding-left: 1.2rem; color: var(--ink); }
+.dialog-content li::marker { color: var(--coral); }
+.dialog-close { min-width: 90px; min-height: 42px; padding: .55rem .9rem; border: 1px solid var(--navy); border-radius: .2rem; color: var(--white); background: var(--navy); font: 700 .9rem var(--sans); cursor: pointer; }
+.dialog-close:hover, .dialog-close:focus-visible { background: var(--coral); }
+.thankyou-main { min-height: 55vh; padding: 3rem 1rem 4rem; }
+.thankyou-card { width: min(100%, 760px); padding: clamp(1.3rem, 5vw, 2.5rem); margin: auto; border: 1px solid var(--line); border-radius: .45rem; background: var(--white); box-shadow: var(--shadow); }
+.thankyou-card h1 { margin: 0; color: var(--navy-dark); font-size: clamp(2.2rem, 6vw, 3.6rem); }
+.thankyou-card > p:not(.eyebrow) { max-width: 620px; color: var(--muted); }
+.application-summary { display: grid; gap: 0; margin: 1.6rem 0; border-top: 1px solid var(--line); }
+.application-summary > div { display: grid; grid-template-columns: minmax(130px, .75fr) 1.25fr; gap: .8rem; padding: .8rem .2rem; border-bottom: 1px solid var(--line); }
+.application-summary dt { color: var(--muted); font-size: .87rem; font-weight: 700; }
+.application-summary dd { margin: 0; color: var(--navy-dark); font-size: .9rem; overflow-wrap: anywhere; }
+.thankyou-link { margin-top: .5rem; }
+@media (min-width: 760px) {
+  .join-intro { padding-top: 3.3rem; padding-bottom: 3.1rem; }
+  .join-layout { grid-template-columns: minmax(0, 1.12fr) minmax(320px, .88fr); align-items: start; gap: 2rem; padding-top: 3.2rem; }
+  .membership-form { padding: 1.5rem; }
+  .form-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem 1rem; }
+  .membership-cards { gap: 1rem; }
+  .level-card { min-height: 190px; padding: 1.1rem; }
+}
+@media (max-width: 380px) {
+  .membership-cards { grid-template-columns: 1fr; }
+  .level-card { min-height: 150px; }
+  .application-summary > div { grid-template-columns: 1fr; gap: .2rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .level-card { animation: none; }
+}

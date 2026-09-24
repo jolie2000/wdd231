@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apply to join Kampala Commerce and connect your organization with local business opportunities, events, and resources.">
+  <meta name="author" content="Uwase Jolie">
+  <meta name="theme-color" content="#123b4a">
+  <title>Join Kampala Commerce | Membership Application</title>
+  <link rel="icon" href="https://jolie2000.github.io/wdd231/chamber/images/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Join Kampala Commerce | Membership Application">
+  <meta property="og:description" content="Bring your organization into Kampala's connected business community. Choose a membership and apply to join today.">
+  <meta property="og:image" content="https://jolie2000.github.io/wdd231/chamber/images/social-preview.svg">
+  <meta property="og:url" content="https://jolie2000.github.io/wdd231/chamber/join.html">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/join.css">
+  <script src="scripts/join.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="brand" href="index.html" aria-label="Kampala Commerce home">
+        <span class="brand-symbol" aria-hidden="true">K</span>
+        <span><strong>Kampala</strong><small>Commerce</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html" aria-current="page">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="join-intro" aria-labelledby="join-title">
+      <p class="eyebrow">Grow with Kampala</p>
+      <h1 id="join-title">Join the chamber</h1>
+      <p>Build relationships, find new opportunities, and help our city’s business community thrive.</p>
+    </section>
+
+    <div class="join-layout">
+      <section class="application-section" aria-labelledby="application-title">
+        <div class="join-section-heading">
+          <h2 id="application-title">Membership application</h2>
+          <p>Tell us about yourself and your organization. Fields marked required must be completed.</p>
+        </div>
+        <form class="membership-form" method="get" action="thankyou.html">
+          <div class="form-fields">
+            <label for="first-name">First name <span aria-hidden="true">*</span>
+              <input id="first-name" name="firstName" type="text" title="Enter your first name" autocomplete="given-name" required>
+            </label>
+            <label for="last-name">Last name <span aria-hidden="true">*</span>
+              <input id="last-name" name="lastName" type="text" title="Enter your last name" autocomplete="family-name" required>
+            </label>
+            <label for="organization-title">Organizational title
+              <input id="organization-title" name="organizationTitle" type="text" title="Use at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z -]{7,}" minlength="7">
+              <span class="field-hint">At least 7 letters, spaces, or hyphens.</span>
+            </label>
+            <label for="email">Email address <span aria-hidden="true">*</span>
+              <input id="email" name="email" type="email" title="Enter an email address where we can contact you" autocomplete="email" placeholder="name@example.com" required>
+            </label>
+            <label for="phone">Mobile phone number <span aria-hidden="true">*</span>
+              <input id="phone" name="phone" type="tel" title="Enter your mobile phone number" autocomplete="tel" required>
+            </label>
+            <label for="organization">Business or organization name <span aria-hidden="true">*</span>
+              <input id="organization" name="organization" type="text" title="Enter your business or organization name" autocomplete="organization" required>
+            </label>
+            <label for="membership">Membership level <span aria-hidden="true">*</span>
+              <select id="membership" name="membership" title="Choose a membership level" autocomplete="off" required>
+                <option value="" selected disabled>Select a level</option>
+                <option value="np">NP Membership — no fee</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select>
+            </label>
+            <label class="form-field-wide" for="description">Business or organization description
+              <textarea id="description" name="description" title="Describe your business or organization" autocomplete="off" rows="5"></textarea>
+            </label>
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+          </div>
+          <p class="required-note"><span aria-hidden="true">*</span> Required field</p>
+          <input class="submit-application" type="submit" value="Send membership application" title="Submit your chamber membership application">
+        </form>
+      </section>
+
+      <section class="membership-section" aria-labelledby="levels-title">
+        <div class="join-section-heading">
+          <p class="eyebrow">Find your fit</p>
+          <h2 id="levels-title">Membership levels</h2>
+          <p>Every level connects you with Kampala’s business community. Choose one to see the benefits.</p>
+        </div>
+        <div class="membership-cards">
+          <article class="level-card level-np">
+            <p class="level-kicker">Community access</p><h3>NP Membership</h3><p class="level-price">No annual fee</p>
+            <a href="#np-dialog" data-dialog="np-dialog">View benefits <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="level-card level-bronze">
+            <p class="level-kicker">Get connected</p><h3>Bronze Membership</h3><p class="level-price">UGX 150,000 <span>/ year</span></p>
+            <a href="#bronze-dialog" data-dialog="bronze-dialog">View benefits <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="level-card level-silver">
+            <p class="level-kicker">Grow your reach</p><h3>Silver Membership</h3><p class="level-price">UGX 350,000 <span>/ year</span></p>
+            <a href="#silver-dialog" data-dialog="silver-dialog">View benefits <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="level-card level-gold">
+            <p class="level-kicker">Lead and influence</p><h3>Gold Membership</h3><p class="level-price">UGX 650,000 <span>/ year</span></p>
+            <a href="#gold-dialog" data-dialog="gold-dialog">View benefits <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <dialog class="benefit-dialog" id="np-dialog" aria-labelledby="np-dialog-title">
+      <div class="dialog-content"><p class="eyebrow">No fee</p><h2 id="np-dialog-title">NP Membership</h2><p>For nonprofit and community organizations serving Kampala.</p><ul><li>Chamber event calendar and monthly newsletter</li><li>Access to member networking events</li><li>Nonprofit member listing in the directory</li></ul><form method="dialog"><button class="dialog-close" type="submit">Close</button></form></div>
+    </dialog>
+    <dialog class="benefit-dialog" id="bronze-dialog" aria-labelledby="bronze-dialog-title">
+      <div class="dialog-content"><p class="eyebrow">UGX 150,000 per year</p><h2 id="bronze-dialog-title">Bronze Membership</h2><p>A practical first step for small businesses building local connections.</p><ul><li>All NP member benefits</li><li>Member directory listing with website link</li><li>One complimentary chamber event ticket per year</li><li>Member pricing on workshops</li></ul><form method="dialog"><button class="dialog-close" type="submit">Close</button></form></div>
+    </dialog>
+    <dialog class="benefit-dialog" id="silver-dialog" aria-labelledby="silver-dialog-title">
+      <div class="dialog-content"><p class="eyebrow">UGX 350,000 per year</p><h2 id="silver-dialog-title">Silver Membership</h2><p>More ways to raise your profile and develop your team.</p><ul><li>All Bronze member benefits</li><li>Two complimentary event tickets per year</li><li>Quarterly member spotlight opportunity</li><li>Discounted staff training and event space</li></ul><form method="dialog"><button class="dialog-close" type="submit">Close</button></form></div>
+    </dialog>
+    <dialog class="benefit-dialog" id="gold-dialog" aria-labelledby="gold-dialog-title">
+      <div class="dialog-content"><p class="eyebrow">UGX 650,000 per year</p><h2 id="gold-dialog-title">Gold Membership</h2><p>Premium visibility and a stronger voice in Kampala’s business community.</p><ul><li>All Silver member benefits</li><li>Priority homepage spotlight rotation</li><li>Four complimentary event tickets per year</li><li>Priority invitations to leadership roundtables</li><li>Featured logo placement in chamber communications</li></ul><form method="dialog"><button class="dialog-close" type="submit">Close</button></form></div>
+    </dialog>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Kampala Commerce</h2>
+        <address>12 Lumumba Avenue<br>Kampala, Uganda<br><a href="tel:+256200123456">+256 200 123 456</a><br><a href="mailto:hello@kampalacommerce.org">hello@kampalacommerce.org</a></address>
+      </section>
+      <nav class="social-links" aria-label="Social media links">
+        <a href="https://www.linkedin.com" aria-label="Kampala Commerce on LinkedIn"><span aria-hidden="true">in</span></a>
+        <a href="https://www.facebook.com" aria-label="Kampala Commerce on Facebook"><span aria-hidden="true">f</span></a>
+        <a href="https://www.instagram.com" aria-label="Kampala Commerce on Instagram"><span aria-hidden="true">◎</span></a>
+      </nav>
+      <section class="development-info" aria-label="Development information">
+        <p>WDD 231 Chamber Project</p><p>Uwase Jolie</p><p>&copy; <span id="current-year"></span> Kampala Commerce</p><p>Last modification: <span id="last-modified"></span></p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>

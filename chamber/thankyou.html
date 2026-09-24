@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thank you for applying to join Kampala Commerce. Review the membership application details you submitted.">
+  <meta name="author" content="Uwase Jolie">
+  <meta name="theme-color" content="#123b4a">
+  <title>Application Received | Kampala Commerce</title>
+  <link rel="icon" href="https://jolie2000.github.io/wdd231/chamber/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/join.css">
+  <script src="scripts/thankyou.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="brand" href="index.html" aria-label="Kampala Commerce home"><span class="brand-symbol" aria-hidden="true">K</span><span><strong>Kampala</strong><small>Commerce</small></span></a>
+      <button class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="discover.html">Discover</a><a href="directory.html">Directory</a><a href="join.html" aria-current="page">Join</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="thankyou-main">
+    <section class="thankyou-card" aria-labelledby="thankyou-title">
+      <p class="eyebrow">Your next connection starts here</p>
+      <h1 id="thankyou-title">Thank you for applying</h1>
+      <p>We appreciate your interest in joining Kampala Commerce. Here is a summary of the information you sent.</p>
+      <dl class="application-summary" id="application-summary" aria-live="polite">
+        <div><dt>First name</dt><dd data-field="firstName">—</dd></div>
+        <div><dt>Last name</dt><dd data-field="lastName">—</dd></div>
+        <div><dt>Email address</dt><dd data-field="email">—</dd></div>
+        <div><dt>Mobile phone</dt><dd data-field="phone">—</dd></div>
+        <div><dt>Business or organization</dt><dd data-field="organization">—</dd></div>
+        <div><dt>Application submitted</dt><dd data-field="timestamp">—</dd></div>
+      </dl>
+      <a class="hero-cta thankyou-link" href="index.html">Return to the home page <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <section aria-labelledby="contact-title"><h2 id="contact-title">Kampala Commerce</h2><address>12 Lumumba Avenue<br>Kampala, Uganda<br><a href="tel:+256200123456">+256 200 123 456</a><br><a href="mailto:hello@kampalacommerce.org">hello@kampalacommerce.org</a></address></section>
+      <nav class="social-links" aria-label="Social media links"><a href="https://www.linkedin.com" aria-label="Kampala Commerce on LinkedIn"><span aria-hidden="true">in</span></a><a href="https://www.facebook.com" aria-label="Kampala Commerce on Facebook"><span aria-hidden="true">f</span></a><a href="https://www.instagram.com" aria-label="Kampala Commerce on Instagram"><span aria-hidden="true">◎</span></a></nav>
+      <section class="development-info" aria-label="Development information"><p>WDD 231 Chamber Project</p><p>Uwase Jolie</p><p>&copy; <span id="current-year"></span> Kampala Commerce</p><p>Last modification: <span id="last-modified"></span></p></section>
+    </div>
+  </footer>
+</body>
+</html>
