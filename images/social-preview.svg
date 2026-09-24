@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">Uwase Jolie — WDD 231 Web Development Portfolio</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f5f4ef"/><stop offset="1" stop-color="#dcebe1"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1015" cy="130" r="275" fill="#b8e3c7" opacity=".72"/>
+  <circle cx="1100" cy="585" r="230" fill="#ffd0c2" opacity=".58"/>
+  <rect x="100" y="105" width="80" height="80" rx="40" fill="#17252a"/>
+  <text x="140" y="158" text-anchor="middle" fill="#b8e3c7" font-family="Arial,sans-serif" font-size="27" font-weight="700">UJ</text>
+  <text x="100" y="292" fill="#245b4d" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="5">WDD 231 • WEB DEVELOPMENT</text>
+  <text x="96" y="395" fill="#17252a" font-family="Arial,sans-serif" font-size="76" font-weight="700">Uwase Jolie</text>
+  <text x="101" y="463" fill="#5e6e70" font-family="Arial,sans-serif" font-size="30">Coursework, projects, and a little progress every week.</text>
+  <path d="M100 520h210" stroke="#8a3f2f" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -4,7 +4,7 @@ const weatherPanel = document.querySelector("#weather-panel");
 const spotlightGrid = document.querySelector("#spotlight-grid");
 
 // Add a personal OpenWeatherMap API key here to enable the live weather panels.
-const OPENWEATHER_API_KEY = "";
+const OPENWEATHER_API_KEY = " ";
 const KAMPALA = { latitude: 0.3476, longitude: 32.5825 };
 const membershipNames = { 2: "Silver", 3: "Gold" };
 
