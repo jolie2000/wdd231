@@ -21,6 +21,7 @@ document.querySelectorAll("[data-dialog]").forEach((link) => {
 });
 
 document.querySelectorAll(".benefit-dialog").forEach((dialog) => {
+  dialog.querySelector(".dialog-close").addEventListener("click", () => dialog.close());
   dialog.addEventListener("click", (event) => {
     if (event.target === dialog) dialog.close();
   });
