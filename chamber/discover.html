@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Kampala's cultural landmarks, heritage sites, and visitor attractions with Kampala Commerce.">
+  <meta name="author" content="Uwase Jolie">
+  <meta name="theme-color" content="#123b4a">
+  <title>Discover Kampala | Kampala Commerce</title>
+  <link rel="icon" href="https://jolie2000.github.io/wdd231/chamber/images/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Discover Kampala | Kampala Commerce">
+  <meta property="og:description" content="A guide to the landmarks, culture, and places of interest around Kampala.">
+  <meta property="og:image" content="https://jolie2000.github.io/wdd231/chamber/images/social-preview.svg">
+  <meta property="og:url" content="https://jolie2000.github.io/wdd231/chamber/discover.html">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/discover.css">
+  <script type="module" src="scripts/discover.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="brand" href="index.html" aria-label="Kampala Commerce home">
+        <span class="brand-symbol" aria-hidden="true">K</span>
+        <span><strong>Kampala</strong><small>Commerce</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html" aria-current="page">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="discover-hero" aria-labelledby="discover-title">
+      <div class="discover-hero-inner">
+        <p class="eyebrow">The city of seven hills</p>
+        <h1 id="discover-title">Discover Kampala</h1>
+        <p>From living heritage and landmark architecture to music and cultural expression, explore the places that give Uganda’s capital its character.</p>
+      </div>
+    </section>
+
+    <section class="discover-content" aria-labelledby="places-title">
+      <div class="visit-message" aria-live="polite" aria-atomic="true">
+        <span class="visit-mark" aria-hidden="true">K</span>
+        <p id="visit-message">Welcome to Kampala.</p>
+      </div>
+      <div class="places-heading">
+        <div>
+          <p class="eyebrow">Places to explore</p>
+          <h2 id="places-title">Kampala and its stories</h2>
+        </div>
+        <p>Eight places offer a starting point for discovering the city’s culture, history, architecture, and arts.</p>
+      </div>
+      <div class="attraction-grid" id="attraction-grid" aria-live="polite" aria-busy="true"></div>
+    </section>
+
+    <dialog class="attraction-dialog" id="attraction-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+      <div class="dialog-inner">
+        <p class="eyebrow">Kampala place guide</p>
+        <h2 id="dialog-title">Place details</h2>
+        <address id="dialog-address"></address>
+        <p id="dialog-description"></p>
+        <div class="dialog-actions">
+          <a id="dialog-link" href="https://visitkampala.kcca.go.ug/" target="_blank" rel="noopener noreferrer">Visit Kampala Tourism</a>
+          <button class="dialog-close" type="button">Close</button>
+        </div>
+      </div>
+    </dialog>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Kampala Commerce</h2>
+        <address>
+          12 Lumumba Avenue<br>
+          Kampala, Uganda<br>
+          <a href="tel:+256200123456">+256 200 123 456</a><br>
+          <a href="mailto:hello@kampalacommerce.org">hello@kampalacommerce.org</a>
+        </address>
+      </section>
+      <nav class="social-links" aria-label="Social media links">
+        <a href="https://www.linkedin.com" aria-label="Kampala Commerce on LinkedIn"><span aria-hidden="true">in</span></a>
+        <a href="https://www.facebook.com" aria-label="Kampala Commerce on Facebook"><span aria-hidden="true">f</span></a>
+        <a href="https://www.instagram.com" aria-label="Kampala Commerce on Instagram"><span aria-hidden="true">◉</span></a>
+      </nav>
+      <section class="development-info" aria-label="Development information">
+        <p>WDD 231 Chamber Project</p>
+        <p>Uwase Jolie</p>
+        <p>&copy; <span id="current-year"></span> Kampala Commerce</p>
+        <p>Last modification: <span id="last-modified"></span></p>
+        <p><a href="https://visitkampala.kcca.go.ug/">Kampala Tourism Portal</a> · <a href="https://commons.wikimedia.org/wiki/Main_Page">Photo sources and licences</a></p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
