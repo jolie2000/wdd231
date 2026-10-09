@@ -1,0 +1,17 @@
+[
+  {"id":"g-c","instrument":"Guitar","type":"Open chord","title":"C major","shape":"x 3 2 0 1 0","notes":"C · E · G","level":"Beginner","tip":"Keep each fingertip close to its fret and strum from the A string."},
+  {"id":"g-g","instrument":"Guitar","type":"Open chord","title":"G major","shape":"3 2 0 0 0 3","notes":"G · B · D","level":"Beginner","tip":"Use your fingertips so the open middle strings ring clearly."},
+  {"id":"g-d","instrument":"Guitar","type":"Open chord","title":"D major","shape":"x x 0 2 3 2","notes":"D · F♯ · A","level":"Beginner","tip":"Strum only the highest four strings for a clean D chord."},
+  {"id":"g-em","instrument":"Guitar","type":"Open chord","title":"E minor","shape":"0 2 2 0 0 0","notes":"E · G · B","level":"Beginner","tip":"This two-finger shape is a friendly first chord transition."},
+  {"id":"g-am","instrument":"Guitar","type":"Open chord","title":"A minor","shape":"x 0 2 2 1 0","notes":"A · C · E","level":"Beginner","tip":"Keep your fingers grouped on the second fret and avoid the low E string."},
+  {"id":"g-a","instrument":"Guitar","type":"Open chord","title":"A major","shape":"x 0 2 2 2 0","notes":"A · C♯ · E","level":"Beginner","tip":"Try one finger across the second fret if that feels comfortable."},
+  {"id":"g-e","instrument":"Guitar","type":"Open chord","title":"E major","shape":"0 2 2 1 0 0","notes":"E · G♯ · B","level":"Beginner","tip":"Strum all six strings and listen for a bright, full sound."},
+  {"id":"g-dm","instrument":"Guitar","type":"Open chord","title":"D minor","shape":"x x 0 2 3 1","notes":"D · F · A","level":"Beginner","tip":"Place the first finger last so the high E string rings without buzzing."},
+  {"id":"g-d7","instrument":"Guitar","type":"Open chord","title":"D seventh","shape":"x x 0 2 1 2","notes":"D · F♯ · A · C","level":"Beginner","tip":"A useful sound for moving between G and D in simple songs."},
+  {"id":"p-c","instrument":"Piano","type":"Major triad","title":"C major","shape":"C · E · G","notes":"C · E · G","level":"Beginner","tip":"Start with the right hand: thumb on C, middle finger on E, pinky on G."},
+  {"id":"p-f","instrument":"Piano","type":"Major triad","title":"F major","shape":"F · A · C","notes":"F · A · C","level":"Beginner","tip":"Find F just left of the group of three black keys."},
+  {"id":"p-g","instrument":"Piano","type":"Major triad","title":"G major","shape":"G · B · D","notes":"G · B · D","level":"Beginner","tip":"Play the three notes together, then one at a time while keeping an even pulse."},
+  {"id":"p-am","instrument":"Piano","type":"Minor triad","title":"A minor","shape":"A · C · E","notes":"A · C · E","level":"Beginner","tip":"A minor uses only white keys and shares two notes with C major."},
+  {"id":"p-dm","instrument":"Piano","type":"Minor triad","title":"D minor","shape":"D · F · A","notes":"D · F · A","level":"Beginner","tip":"Play softly and listen for the different mood of the minor third."},
+  {"id":"p-g7","instrument":"Piano","type":"Seventh chord","title":"G seventh","shape":"G · B · D · F","notes":"G · B · D · F","level":"Beginner","tip":"This four-note chord creates a sound that naturally wants to resolve to C."}
+]

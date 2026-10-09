@@ -3,155 +3,125 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The planning document for Kampala Coffee Routes, a guide to discovering Uganda's coffee culture and local coffee spots.">
+  <meta name="description" content="The site plan for Guitar and Piano Learning Hub, a beginner music learning guide by Uwase Jolie.">
   <meta name="author" content="Uwase Jolie">
-  <meta name="theme-color" content="#3b241a">
-  <title>Kampala Coffee Routes | Site Plan</title>
+  <meta name="theme-color" content="#252d3a">
+  <title>Guitar &amp; Piano Learning Hub | Site Plan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
   <style>
     :root {
-      color-scheme: light;
-      --coffee: #3b241a;
-      --cream: #f4ebdd;
-      --terracotta: #a74727;
-      --olive: #53633b;
-      --paper: #fffdf9;
-      --line: #d9c8b4;
-      --body-font: "DM Sans", sans-serif;
-      --heading-font: "Lora", Georgia, serif;
+      --ink: #252d3a;
+      --paper: #fbfaf6;
+      --cream: #f0ece2;
+      --coral: #a44636;
+      --teal: #315e58;
+      --line: #d8d4c9;
+      --serif: "Fraunces", Georgia, serif;
+      --sans: "DM Sans", Arial, sans-serif;
     }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      color: var(--coffee);
-      background: var(--cream);
-      font-family: var(--body-font);
-      font-size: 1rem;
-      line-height: 1.65;
-    }
-    header {
-      padding: 3rem 1.25rem 2.5rem;
-      color: var(--cream);
-      background: var(--coffee);
-      border-bottom: 0.45rem solid var(--terracotta);
-    }
-    .header-inner, main, footer { width: min(100% - 2rem, 960px); margin-inline: auto; }
-    .eyebrow { margin: 0 0 .4rem; color: #e6b08d; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-    h1, h2, h3 { font-family: var(--heading-font); line-height: 1.2; }
-    h1 { max-width: 14ch; margin: 0; font-size: clamp(2.3rem, 7vw, 4.25rem); }
-    header p:last-child { max-width: 62ch; margin-bottom: 0; color: #f4ebdd; }
-    main { padding-block: 2rem 3rem; }
-    section {
-      margin-block: 1.25rem;
-      padding: clamp(1.2rem, 4vw, 2rem);
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: .9rem;
-      box-shadow: 0 5px 18px rgb(59 36 26 / 5%);
-    }
-    h2 { margin: 0 0 1rem; color: var(--terracotta); font-size: clamp(1.45rem, 4vw, 2rem); }
-    h3 { margin: 1.4rem 0 .35rem; color: var(--olive); font-size: 1.2rem; }
-    p { max-width: 75ch; }
-    ul { padding-left: 1.3rem; }
-    li + li { margin-top: .35rem; }
-    .name-line { padding: 1rem; background: var(--cream); border-left: .3rem solid var(--olive); }
-    .swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .8rem; margin-top: 1rem; }
-    .swatch { padding: .8rem; border: 1px solid var(--line); border-radius: .6rem; background: var(--paper); }
-    .swatch-color { display: block; height: 3rem; margin-bottom: .6rem; border-radius: .35rem; }
-    .coffee-chip { background: var(--coffee); }
-    .cream-chip { background: var(--cream); border: 1px solid var(--line); }
-    .terracotta-chip { background: var(--terracotta); }
-    .olive-chip { background: var(--olive); }
-    .font-sample-heading { font-family: var(--heading-font); font-size: 1.5rem; }
-    .font-sample-body { font-family: var(--body-font); }
-    .wireframe-note { padding: 1rem; background: var(--cream); border: 1px dashed var(--olive); border-radius: .5rem; }
-    footer { padding-block: 1.5rem 2.5rem; color: var(--coffee); font-size: .9rem; }
-    a { color: var(--terracotta); text-underline-offset: .18em; }
-    a:focus-visible { outline: 3px solid var(--olive); outline-offset: 3px; }
-    @media (min-width: 700px) {
-      header { padding-block: 4rem 3.5rem; }
-      main { padding-block: 3rem; }
-      section { margin-block: 1.5rem; }
-    }
+    body { margin: 0; color: var(--ink); background: var(--cream); font: 1rem/1.65 var(--sans); }
+    header, main, footer { width: min(920px, calc(100% - 36px)); margin-inline: auto; }
+    header { padding: 3rem 0 2rem; }
+    h1, h2, h3 { font-family: var(--serif); line-height: 1.15; }
+    h1 { max-width: 15ch; margin: .2rem 0; font-size: clamp(2.5rem, 7vw, 4.5rem); }
+    h2 { margin: 0 0 1rem; color: var(--coral); font-size: clamp(1.5rem, 4vw, 2rem); }
+    h3 { margin: 1.3rem 0 .4rem; color: var(--teal); }
+    .eyebrow { margin: 0; color: var(--teal); font-size: .75rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    section { margin: 1rem 0; padding: clamp(1.2rem, 4vw, 2rem); border: 1px solid var(--line); border-radius: .75rem; background: var(--paper); }
+    .swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .7rem; }
+    .swatch { padding: .8rem; border: 1px solid var(--line); border-radius: .5rem; }
+    .chip { display: block; height: 2.4rem; margin-bottom: .5rem; border-radius: .25rem; }
+    .type-heading { font: 1.5rem/1.3 var(--serif); }
+    .type-body { font-family: var(--sans); }
+    .wireframes { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .wireframe { min-height: 220px; padding: 1rem; border: 1px dashed var(--teal); background: var(--cream); }
+    .wire-block { margin: .55rem 0; padding: .5rem; border: 1px solid #999; background: var(--paper); font-size: .8rem; }
+    .wire-columns { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; }
+    .wire-columns .wire-block { margin: 0; }
+    footer { padding: 1.5rem 0 2.5rem; font-size: .85rem; }
+    a { color: var(--coral); }
+    @media (max-width: 600px) { .wireframes { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
   <header>
-    <div class="header-inner">
-      <p class="eyebrow">WDD 231 · Individual Project</p>
-      <h1>Kampala Coffee Routes</h1>
-      <p>A site plan for a friendly guide to Uganda's coffee culture and places to enjoy a cup in Kampala.</p>
-    </div>
+    <p class="eyebrow">WDD 231 &middot; Individual project</p>
+    <h1>Guitar &amp; Piano Learning Hub</h1>
+    <p>A beginner-friendly guide to learning guitar and piano, building a practice habit, and finding a first musical goal.</p>
   </header>
-
   <main>
-    <section aria-labelledby="site-name-title">
-      <h2 id="site-name-title">Site name</h2>
-      <p class="name-line"><strong>Kampala Coffee Routes</strong> — “Kampala” makes the guide's home base clear, while “Coffee Routes” suggests both discovering local cafés and learning how Ugandan coffee travels from origin to cup.</p>
-      <p><strong>Possible domain:</strong> kampalacoffeeroutes.com (availability not checked).</p>
+    <section>
+      <h2>Site name and reason</h2>
+      <p><strong>Guitar &amp; Piano Learning Hub</strong> names the two instruments covered and describes the site as a welcoming starting point for beginners. “Learning Hub” signals that learners can find chords, practice guidance and instrument information in one place.</p>
     </section>
-
-    <section aria-labelledby="purpose-title">
-      <h2 id="purpose-title">Site purpose</h2>
-      <p>Kampala Coffee Routes will help residents and visitors explore Uganda's coffee culture. The site will introduce coffee origins and brewing traditions, let people browse a curated directory of at least fifteen cafés and roasters, and help them choose a place by location, roast or visitor amenities. A short form will let readers save a visit note or suggest a place for future review.</p>
+    <section>
+      <h2>Site purpose and audience</h2>
+      <p>The site organizes useful beginner resources in one place: first chords and notes, practice tips, and information to help new musicians choose an instrument. It aims to make learning music accessible, encouraging and engaging.</p>
+      <p><strong>Target audience:</strong> Beginners who are curious about guitar or piano, including learners choosing their first instrument.</p>
     </section>
-
-    <section aria-labelledby="scenarios-title">
-      <h2 id="scenarios-title">Audience scenarios</h2>
+    <section>
+      <h2>Audience scenarios</h2>
       <ul>
-        <li>Where can I find locally roasted Ugandan coffee near central Kampala?</li>
-        <li>Which cafés have Wi-Fi and a comfortable place to work?</li>
-        <li>What is the difference between coffee from Uganda's major growing regions?</li>
+        <li>What are a few easy chords I can learn first?</li>
+        <li>How should I plan a short, useful practice session?</li>
+        <li>Should I begin with guitar or piano?</li>
       </ul>
     </section>
-
-    <section aria-labelledby="colors-title">
-      <h2 id="colors-title">Color scheme</h2>
-      <p>The plan uses warm coffee and earth tones to connect the guide to its subject. The same palette will appear in the project site.</p>
+    <section>
+      <h2>Color scheme</h2>
+      <p>The document and project use a calm, welcoming music-workbook palette. Midnight provides contrast, warm paper softens reading surfaces, coral highlights actions, and teal identifies learning tips.</p>
       <div class="swatches">
-        <div class="swatch"><span class="swatch-color coffee-chip" aria-hidden="true"></span><strong>Espresso · #3B241A</strong><br>Header and footer backgrounds, primary text, and strong contrast.</div>
-        <div class="swatch"><span class="swatch-color cream-chip" aria-hidden="true"></span><strong>Warm cream · #F4EBDD</strong><br>Page background and soft content panels.</div>
-        <div class="swatch"><span class="swatch-color terracotta-chip" aria-hidden="true"></span><strong>Terracotta · #A74727</strong><br>Section headings, links, buttons, and small accents.</div>
-        <div class="swatch"><span class="swatch-color olive-chip" aria-hidden="true"></span><strong>Leaf olive · #53633B</strong><br>Secondary labels, borders, and detail accents.</div>
+        <div class="swatch"><span class="chip" style="background:#252d3a"></span><strong>Midnight &middot; #252D3A</strong><br>Header, footer, and strong text.</div>
+        <div class="swatch"><span class="chip" style="background:#f0ece2"></span><strong>Warm paper &middot; #F0ECE2</strong><br>Document background and supporting surfaces.</div>
+        <div class="swatch"><span class="chip" style="background:#a44636"></span><strong>Coral &middot; #A44636</strong><br>Section headings, links, and actions.</div>
+        <div class="swatch"><span class="chip" style="background:#315e58"></span><strong>Deep teal &middot; #315E58</strong><br>Labels and secondary accents.</div>
       </div>
     </section>
-
-    <section aria-labelledby="type-title">
-      <h2 id="type-title">Typography</h2>
-      <h3>Display and section headings — Lora</h3>
-      <p class="font-sample-heading">A good cup begins with a good story.</p>
-      <p>Lora is a readable serif for the site name, page titles, and section headings. It adds a warm editorial character.</p>
-      <h3>Body and interface text — DM Sans</h3>
-      <p class="font-sample-body">Find a nearby café, compare details, and plan your next coffee stop.</p>
-      <p>DM Sans will be used for paragraphs, navigation, labels, forms, and directory details for clear reading at small sizes.</p>
+    <section>
+      <h2>Typography</h2>
+      <p><strong>Fraunces</strong> is used for the site name and section headings to give the plan a friendly, expressive character. <strong>DM Sans</strong> is used for paragraphs, labels and interface text for clear reading. Both typefaces are applied in this document as well as in the project.</p>
+      <p class="type-heading">Fraunces heading sample: Start with one good note.</p>
+      <p class="type-body">DM Sans body sample: Learn at your own pace with one small practice goal.</p>
     </section>
-
-    <section aria-labelledby="wireframe-title">
-      <h2 id="wireframe-title">Home page wireframes</h2>
-      <p>The assignment requires original black-and-white sketches for a small viewport and a wider viewport. Add photographs or scans of your own sketches below before submission.</p>
-      <div class="wireframe-note">
-        <p><strong>Small viewport sketch:</strong> Draw a stacked header with brand and menu control, a short introductory hero and browse button, a featured coffee place, a compact filter/search area, then vertically stacked coffee cards and footer.</p>
-        <p><strong>Wide viewport sketch:</strong> Draw the brand and horizontal navigation across the top, a two-column introductory hero, then a filter/sidebar beside a three-column directory grid, followed by a full-width footer.</p>
-        <p><strong>Your sketches:</strong> Insert the two hand-drawn sketches here as images, each with descriptive alternative text.</p>
+    <section>
+      <h2>Home page wireframes</h2>
+      <p>These layouts show how the home page content changes from a narrow mobile screen to a wider desktop screen.</p>
+      <div class="wireframes">
+        <div class="wireframe">
+          <strong>Mobile view</strong>
+          <div class="wire-block">Brand and hamburger menu</div>
+          <div class="wire-block">Welcome message and start button</div>
+          <div class="wire-block">Learning path cards stacked vertically</div>
+          <div class="wire-block">Chord reference cards in one column</div>
+          <div class="wire-block">Practice timer and form</div>
+          <div class="wire-block">Footer links</div>
+        </div>
+        <div class="wireframe">
+          <strong>Wide view</strong>
+          <div class="wire-block">Brand and horizontal navigation</div>
+          <div class="wire-columns"><div class="wire-block">Welcome and project introduction</div><div class="wire-block">Guitar and keyboard illustration</div></div>
+          <div class="wire-block">Three learning path cards in a row</div>
+          <div class="wire-columns"><div class="wire-block">Search and filters</div><div class="wire-block">Three-column chord reference</div></div>
+          <div class="wire-block">Instrument comparison and practice content</div>
+          <div class="wire-block">Footer links</div>
+        </div>
       </div>
     </section>
-
-    <section aria-labelledby="build-title">
-      <h2 id="build-title">Planned project structure</h2>
+    <section>
+      <h2>Project pages and interactions</h2>
+      <p>The three pages are Home; Chords &amp; Notes, with a searchable guitar and piano reference; and Practice &amp; Instruments, with an instrument comparison, practice routine, timer and goal form.</p>
       <ul>
-        <li><strong>Home:</strong> introduction, featured places, and links into the guide.</li>
-        <li><strong>Coffee places:</strong> a searchable directory populated from a local JSON file using Fetch, with at least fifteen entries and at least four details per entry.</li>
-        <li><strong>Origins and brewing:</strong> an approachable overview of Uganda's coffee regions and brewing traditions.</li>
-        <li><strong>Interactions:</strong> filters, a details dialog, a saved-favorites preference in local storage, and a form confirmation page.</li>
-        <li><strong>JavaScript:</strong> ES modules, asynchronous fetch with try/catch error handling, array methods, template literals, and event listeners.</li>
+        <li>Fetch at least 15 chord and note references from local JSON data, showing multiple details for each item.</li>
+        <li>Filter and search references, open an accessible details dialog, and save favorites with local storage.</li>
+        <li>Use a JavaScript practice timer and save a practice goal on the learner's device.</li>
+        <li>Use a GET form and display submitted fields on a separate action page.</li>
+        <li>Organize JavaScript with ES modules, Fetch, asynchronous error handling, template literals, DOM updates and array methods.</li>
       </ul>
     </section>
   </main>
-
-  <footer>
-    <p>Site plan for the WDD 231 individual project · Uwase Jolie · Kampala, Uganda</p>
-  </footer>
+  <footer><p>Site plan &middot; Uwase Jolie &middot; Guitar &amp; Piano Learning Hub &middot; <a href="final/index.html">View the project</a></p></footer>
 </body>
 </html>
