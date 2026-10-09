@@ -4,7 +4,7 @@ if (menuButton && siteNav) {
   menuButton.addEventListener("click", () => {
     const expanded = menuButton.getAttribute("aria-expanded") === "true";
     menuButton.setAttribute("aria-expanded", String(!expanded));
-    menuButton.querySelector(".visually-hidden").textContent = expanded ? "Open menu" : "Close menu";
+    menuButton.querySelector(".assistive-text").textContent = expanded ? "Open menu" : "Close menu";
     siteNav.classList.toggle("open", !expanded);
   });
 }

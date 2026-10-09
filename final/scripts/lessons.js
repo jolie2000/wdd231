@@ -1,6 +1,6 @@
 import "./site.js";
 
-const grid = document.querySelector("#lesson-grid");
+const grid = document.querySelector("#lesson-layout");
 const search = document.querySelector("#lesson-search");
 const instrument = document.querySelector("#instrument-filter");
 const results = document.querySelector("#results-count");
