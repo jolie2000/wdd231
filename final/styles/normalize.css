@@ -1,0 +1,5 @@
+/* Small cross-browser baseline. Site-specific styles follow in site.css. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; }
+button, input, select, textarea { font: inherit; }
